@@ -1,1 +1,8 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  prueba:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "ok"
 
